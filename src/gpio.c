@@ -117,7 +117,6 @@ int gpio_write(int pin, int value)
 	}
 
 	close(fd);
-
 	return 0;
 }
 
@@ -148,7 +147,6 @@ int gpio_direction(int pin, int direction)
 	}
 
 	close(fd);
-
 	return 0;
 }
 
@@ -185,7 +183,6 @@ int gpio_edge(int pin, int edge)
 	}
 
 	close(fd);
-
 	return 0;
 }
 

@@ -29,7 +29,6 @@ int init_pwm(int pwm_id)
 
 	close(fd);
 	usleep(500000);
-
 	return 0;
 }
 
